@@ -41,7 +41,7 @@ spec:
       serviceAccountName: backend-sa
       containers:
         - name: backend
-          image: 
+          image: 071564566144.dkr.ecr.us-east-2.amazonaws.com/sample-app-lsy/backend
           ports:
             - containerPort: 8080
           env:
